@@ -1,4 +1,4 @@
-###仓库
+## 仓库
 
 \# 在当前目录新建一个Git代码库
 
@@ -12,7 +12,7 @@
 
 \$ git clone [url]
 
-###配置
+## 配置
 
 \# 显示当前的Git配置
 
@@ -28,7 +28,7 @@
 
 \$ git config [--global] user.email "[email address]"
 
-###增加/删除文件
+## 增加/删除文件
 
 \# 添加指定文件到暂存区
 
@@ -60,7 +60,7 @@
 
 \$ git mv [file-original] [file-renamed]
 
-###代码提交
+## 代码提交
 
 \# 提交暂存区到仓库区
 
@@ -78,13 +78,17 @@
 
 \$ git commit -v
 
-\# 使用一次新的commit，替代上一次提交
+\# 使用一次新的commit，替代上一次提交 
+
 \# 如果代码没有任何新变化，则用来改写上一次commit的提交信息
+
 \$ git commit --amend -m [message]
 
 \# 重做上一次commit，并包括指定文件的新变化
+
 \$ git commit --amend [file1] [file2] ...
-###分支
+
+## 分支
 \# 列出所有本地分支
 \$ git branch
 
@@ -127,7 +131,9 @@
 \# 删除远程分支
 \$ git push origin --delete [branch-name]
 \$ git branch -dr [remote/branch]
-###标签
+
+## 标签
+
 \# 列出所有tag
 \$ git tag
 
@@ -154,7 +160,9 @@
 
 \# 新建一个分支，指向某个tag
 \$ git checkout -b [branch] [tag]
-###查看信息
+
+## 查看信息
+
 \# 显示有变更的文件
 \$ git status
 
@@ -215,7 +223,9 @@
 
 \# 显示当前分支的最近几次提交
 \$ git reflog
-###远程同步
+
+## 远程同步
+
 \# 下载远程仓库的所有变动
 \$ git fetch [remote]
 
@@ -239,7 +249,9 @@
 
 \# 推送所有分支到远程仓库
 \$ git push [remote] --all
-###撤销
+
+## 撤销
+
 \# 恢复暂存区的指定文件到工作区
 \$ git checkout [file]
 
@@ -271,6 +283,8 @@
 \#暂时将未提交的变化移除，稍后再移入
 \$ git stash
 \$ git stash pop
-###其他
+
+## 其他
+
 \# 生成一个可供发布的压缩包
 \$ git archive
