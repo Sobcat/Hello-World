@@ -1,7 +1,6 @@
 ## 仓库
 
-<pre><code>
-\# 在当前目录新建一个Git代码库  
+<pre><code>\# 在当前目录新建一个Git代码库  
 \$ git init
 </code></pre>
 
