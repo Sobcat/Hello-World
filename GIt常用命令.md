@@ -2,17 +2,17 @@
 
 <pre><code>\# 在当前目录新建一个Git代码库  
 \$ git init
-</code></pre>
 
 \# 新建一个目录，将其初始化为Git代码库  
 \$ git init [project-name]
 
 \# 下载一个项目和它的整个代码历史  
 \$ git clone [url]
+</code></pre>
 
 ## 配置
 
-\# 显示当前的Git配置  
+<pre><code>\# 显示当前的Git配置  
 \$ git config --list
 
 \# 编辑Git配置文件  
@@ -21,10 +21,11 @@
 \# 设置提交代码时的用户信息  
 \$ git config [--global] user.name "[name]"  
 \$ git config [--global] user.email "[email address]"
+</code></pre>
 
 ## 增加/删除文件
 
-\# 添加指定文件到暂存区  
+<pre><code>\# 添加指定文件到暂存区  
 \$ git add [file1] [file2] ...
 
 \# 添加指定目录到暂存区，包括子目录  
@@ -45,10 +46,11 @@
 
 \# 改名文件，并且将这个改名放入暂存区  
 \$ git mv [file-original] [file-renamed]
+</code></pre>
 
 ## 代码提交
 
-\# 提交暂存区到仓库区  
+<pre><code>\# 提交暂存区到仓库区  
 \$ git commit -m [message]
 
 \# 提交暂存区的指定文件到仓库区  
@@ -66,10 +68,11 @@
 
 \# 重做上一次commit，并包括指定文件的新变化  
 \$ git commit --amend [file1] [file2] ...
+</code></pre>
 
 ## 分支
 
-\# 列出所有本地分支  
+<pre><code>\# 列出所有本地分支  
 \$ git branch
 
 \# 列出所有远程分支  
@@ -111,10 +114,11 @@
 \# 删除远程分支  
 \$ git push origin --delete [branch-name]  
 \$ git branch -dr [remote/branch]
+</code></pre>
 
 ## 标签
 
-\# 列出所有tag  
+<pre><code>\# 列出所有tag  
 \$ git tag
 
 \# 新建一个tag在当前commit  
@@ -140,10 +144,11 @@
 
 \# 新建一个分支，指向某个tag  
 \$ git checkout -b [branch] [tag]
+</code></pre>
 
 ## 查看信息
 
-\# 显示有变更的文件  
+<pre><code>\# 显示有变更的文件  
 \$ git status
 
 \# 显示当前分支的版本历史  
@@ -203,10 +208,11 @@
 
 \# 显示当前分支的最近几次提交  
 \$ git reflog
+</code></pre>
 
 ## 远程同步
 
-\# 下载远程仓库的所有变动  
+<pre><code>\# 下载远程仓库的所有变动  
 \$ git fetch [remote]
 
 \# 显示所有远程仓库  
@@ -229,10 +235,11 @@
 
 \# 推送所有分支到远程仓库  
 \$ git push [remote] --all
+</code></pre>
 
 ## 撤销
 
-\# 恢复暂存区的指定文件到工作区  
+<pre><code>\# 恢复暂存区的指定文件到工作区  
 \$ git checkout [file]
 
 \# 恢复某个commit的指定文件到暂存区和工作区  
@@ -263,8 +270,10 @@
 \#暂时将未提交的变化移除，稍后再移入  
 \$ git stash  
 \$ git stash pop
+</code></pre>
 
 ## 其他
 
-\# 生成一个可供发布的压缩包  
+<pre><code>\# 生成一个可供发布的压缩包  
 \$ git archive
+</code></pre>
