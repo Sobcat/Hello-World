@@ -4,5 +4,5 @@
 ```
 var mv=new Object();
 ```
-<a>woo</a>  
+<a href="#">woo</a>  
   foo
