@@ -4,11 +4,4 @@
 ```
 var mv=new Object();
 ```
-<a href="#">
-  
-  woo
-  
-</a>
 
-
-  foo
