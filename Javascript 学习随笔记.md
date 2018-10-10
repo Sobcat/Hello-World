@@ -3,5 +3,8 @@
 ---
 ### JavaScript 简介：  
 ```
-JavaScript 主要要核心语言(ECMAScript)、文档对象模型(DOM)、浏览器对象模型(BOM)三部分共同组成。
+JavaScript 专门为了写网页而设计的脚本语言，主要核心语言(ECMAScript)、文档对象模型(DOM)、浏览器对象模型(BOM)三部分共同组成。  
+* ECMAScript，由 ECMA-262 定义，提供核心语言。
+* DOM，提供访问和操作网页内容的方法和接口。
+* BOM，提供与浏览器交互的方法和接口。
 ```
